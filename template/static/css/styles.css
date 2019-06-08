@@ -174,7 +174,7 @@ img {
 }
 
 .section {
-	padding: 100px 0;
+	padding: 100px 0 0 0;
 }
 @media (max-width: 991px){
  .section {
@@ -201,6 +201,7 @@ font-family: 'IBM Plex Serif', serif;
 
 a {
   font-family: 'Noto Sans SC', sans-serif;
+  color: #B1040E;
 }
 
 .font-alt {
@@ -331,6 +332,13 @@ a {
   background: #333;
 }
 
+
+.blog-item .more-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
 .more-btn {
   color: #333;
   font-weight: 600;
@@ -357,7 +365,7 @@ a {
           transition: ease all 0.4s;
 }
 .more-btn:hover {
-  color: #000;
+  color: #B1040E;
 }
 .more-btn:hover i {
   right: -20px;
@@ -1018,10 +1026,6 @@ a {
 /*------------------------------
 * Services
 -------------------------------*/
-.services-section {
-  margin-top: -85px;
-  padding-top: 170px;
-}
 .feature-box-02 {
   padding: 35px 8%;
   text-align: center;
@@ -1340,7 +1344,11 @@ section#portfolio {
   box-shadow: 0px 1px 27px -3px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   overflow: hidden;
+  height: 480px;
+  position: relative;
+
 }
+
 .blog-item .blog-content {
   padding: 25px;
 }
@@ -1703,7 +1711,7 @@ blockquote.blockquote-left .parson { font-weight: 600; }
 
 .footer {
   background: #111;
-  margin-top: -100px;
+
   padding: 150px 0 50px;
   text-align: center;
 }
