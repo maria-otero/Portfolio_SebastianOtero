@@ -61,14 +61,14 @@ Copyright (c) 2018 - mital_04
     /*--------------------
         * Header Fixed
     ----------------------*/
-    // RYAN.HeaderFixed = function(){
-    //     if ($(window).scrollTop() >= 0) {
-    //        $('.navbar').addClass('fixed-header');
-    //     }
-    //     else {
-    //        $('.navbar').removeClass('fixed-header');
-    //     }
-    // }    
+    RYAN.HeaderFixed = function(){
+        if ($(window).scrollTop() >= 60) {
+           $('.navbar').addClass('fixed-header');
+        }
+        else {
+           $('.navbar').removeClass('fixed-header');
+        }
+    }    
 
     /*--------------------
         * Progress Bar 
