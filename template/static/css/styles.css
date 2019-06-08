@@ -597,6 +597,7 @@ a {
 
 .header-nav-white.fixed-header {
   background: #fff;
+  opacity: 0.97;
 }
 
 .header-nav-white .navbar-toggler span {
