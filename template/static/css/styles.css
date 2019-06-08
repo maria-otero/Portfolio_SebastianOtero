@@ -31,10 +31,10 @@ Table of contents
 ----------------------------------*/
 
 /* @import url('https://fonts.googleapis.com/css?family=Sunflower:300,500,700'); */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
-@import url('https://fonts.googleapis.com/css?family=Belgrano|Source+Serif+Pro&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i'); */
+/* @import url('https://fonts.googleapis.com/css?family=Belgrano|Source+Serif+Pro&display=swap'); */
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Asap&display=swap'); */
 @import url('https://fonts.googleapis.com/css?family=Asap|IBM+Plex+Serif&display=swap');
 
 
@@ -187,14 +187,14 @@ img {
   } 
 }
 
-p {
 
-  /* font-family: 'Source Serif Pro', serif; */
-  /* font-family: 'Belgrano', serif; */
-  /* font-family: 'Noto Sans SC', sans-serif; */
-  /* font-family: 'Asap', sans-serif; */
-  /* font-family: 'Asap', sans-serif; */
-font-family: 'IBM Plex Serif', serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+
+p {
+  font-family: 'IBM Plex Serif', serif;
   font-size: 16px;
   line-height: 1.6;
 }
@@ -1382,6 +1382,38 @@ section#portfolio {
 /*---------------------------------
 * 14. Blog Lising 
 -----------------------------------*/
+section.section.blog-lising {
+  padding-top: 0;
+}
+
+section.section.blog-lising div p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #292929;
+}
+
+/* section.section.blog-lising div p:first-child:first-letter {
+  color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+} */
+
+.firstcharacter {
+  color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
 .blog-lising .blog-item {
   margin-bottom: 30px;
 }
@@ -1730,6 +1762,7 @@ blockquote.blockquote-left .parson { font-weight: 600; }
 
 .footer p {
   margin: 0;
+  text-align: left;
 }
 
 
@@ -1782,6 +1815,11 @@ blockquote.blockquote-left .parson { font-weight: 600; }
   color: #B1040E;
   background-color: white;
 }
+
+
+
+
+
 
 /*-----------------------------------------
 *  Background Properties
