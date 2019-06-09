@@ -394,12 +394,6 @@ a {
 }
 
 
-/* .blog-item .more-btn {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-} */
-
 .more-btn {
   color: #B1040E;
   position: relative;
@@ -1411,16 +1405,24 @@ section#portfolio {
 
 }
 
+
+#portfolio div.portfolio-content  div.modal-body > p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #292929;
+}
+
 .blog-item .blog-content {
   padding: 25px;
 }
+
+
 .blog-item .blog-content .post-meta {
   margin-bottom: 10px;
-  font-size: 12px;
-}
-.blog-item .blog-content .post-meta a {
+  font-size: 14px;
   color: #333;
-  font-weight: 700;
+  /* font-weight: 700; */
+  font-family: "Noto Sans SC", sans-serif;
 }
 /* .blog-item .blog-content div.card-title{
   color: #333;

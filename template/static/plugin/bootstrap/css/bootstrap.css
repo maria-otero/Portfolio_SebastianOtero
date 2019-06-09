@@ -5112,13 +5112,13 @@ button.close {
 
 .modal-footer {
   display: -ms-flexbox;
-  display: flex;
+  /* display: flex; */
   -ms-flex-align: center;
       align-items: center;
   -ms-flex-pack: end;
       justify-content: flex-end;
   padding: 25px;
-  border-top: 1px solid #e9ecef;
+  /* border-top: 1px solid #e9ecef; */
 }
 
 .modal-footer > :not(:first-child) {
