@@ -1416,11 +1416,16 @@ section#portfolio {
   padding: 25px;
 }
 
+.blog-item .blog-content .modal-title {
+  padding: 10px 20% 20px 0;
+  font-size: 26px;
+  margin-bottom: 0;
+}
 
 .blog-item .blog-content .post-meta {
   margin-bottom: 10px;
   font-size: 14px;
-  color: #333;
+  color: #777;
   /* font-weight: 700; */
   font-family: "Noto Sans SC", sans-serif;
 }

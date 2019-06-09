@@ -5104,10 +5104,14 @@ button.close {
 }
 
 .modal-body {
-  position: relative;
+  /* position: relative;
   -ms-flex: 1 1 auto;
-      flex: 1 1 auto;
-  padding: 25px;
+  flex: 1 1 auto;
+  padding: 25px; */
+  position: relative;
+  flex: 1 1 auto;
+  padding: 25px 50px;
+  text-align: justify;
 }
 
 .modal-footer {
@@ -5118,7 +5122,7 @@ button.close {
   -ms-flex-pack: end;
       justify-content: flex-end;
   padding: 25px;
-  /* border-top: 1px solid #e9ecef; */
+  border-top: 1px solid #e9ecef;
 }
 
 .modal-footer > :not(:first-child) {
