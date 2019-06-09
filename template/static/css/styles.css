@@ -1395,6 +1395,25 @@ section#portfolio {
 /*-----------------------------------------
 *  Blog
 -----------------------------------------*/
+.my-flex-container {
+  height: 100px;
+  border: 1px solif green;
+}
+
+.my-flex-item-photo {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.my-flex-item-label {
+  height: 50px;
+  width: 300px;
+  background-color: blue;
+}
+
+
+
 .blog-item {
   background: #fff;
   box-shadow: 0px 1px 27px -3px rgba(0, 0, 0, 0.2);
